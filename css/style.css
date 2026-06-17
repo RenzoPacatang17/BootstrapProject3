@@ -1,0 +1,39 @@
+    html{
+        scroll-behavior:smooth;
+    }
+
+    .hero{
+        background: linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
+        url('https://images.unsplash.com/photo-1504307651254-35680f356dfd');
+        background-size: cover;
+        background-position: center;
+        min-height: 90vh;
+        display: flex;
+        align-items: center;
+        color: #fff;
+    }
+
+    .section-title{
+        font-weight: 700;
+        margin-bottom: 20px;
+        color: #0d6efd;
+    }
+
+    .product-card img{
+        height: 220px;
+        object-fit: cover;
+    }
+
+    .contact-section{
+        background: #f8f9fa;
+    }
+
+    footer{
+        background: #212529;
+        color: #fff;
+        padding: 20px 0;
+    }
+
+    .navbar-brand{
+        font-weight: bold;
+    }
